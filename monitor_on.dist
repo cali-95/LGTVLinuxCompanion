@@ -1,0 +1,2 @@
+event=jack/videoout VIDEOOUT plug
+action=sudo -u the_user the_dir/run_in_venv.sh turnOnScreen

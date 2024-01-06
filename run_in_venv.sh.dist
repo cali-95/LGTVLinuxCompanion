@@ -1,0 +1,3 @@
+#!/bin/bash
+base_dir="the_dir"
+$base_dir/my_venv/bin/python $base_dir/lg_tv_linux_companion.py -c $1 -k $(cat $base_dir/client_key) -t $(cat $base_dir/ip) -w $base_dir/ --app_usage_prevent_execution --retries 5

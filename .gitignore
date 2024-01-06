@@ -1,0 +1,5 @@
+client_key
+ip
+log*
+my_venv/
+run_in_venv.sh
